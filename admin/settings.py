@@ -34,6 +34,7 @@ INSTALLED_APPS = [
     'users.apps.UsersConfig',
     'voices.apps.VoicesConfig',
     'images.apps.ImagesConfig',
+    'texts.apps.TextsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -80,7 +81,7 @@ WSGI_APPLICATION = 'admin.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql', # mysqlclient librarly 설치
-        'NAME': 'mibotdb',
+        'NAME': 'mibotdjdb',
         'USER': 'root',
         'PASSWORD': 'root',
         'HOST': 'localhost',
