@@ -9,7 +9,7 @@ class User(models.Model):
     email = models.TextField()
     birth = models.TextField()
     tel = models.TextField()
-    regDate = models.DateField()
+
 
     class Meta:
         db_table="users"
